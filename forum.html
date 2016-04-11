@@ -1,0 +1,67 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <title>uShare - your knowledge</title>
+    <link href="techteach.css" rel="stylesheet" type="text/css">
+    
+</head>
+    <div id="container">
+        <header>
+            <img id="Loggan" src="ushare.png" alt="Bild på vår logga">
+        </header>
+<body>
+         <nav>
+            <a class="link" href="techteach.html">Start</a>
+            <a class="link" href="program.html">Program</a>
+            <a class="link">Tipsa</a>
+            <a class="link" href="chatt.html">Forum</a>
+            <a class="link">Kontakt</a>
+        </nav>
+        <section>
+            <div id="textt">
+       <div id="forumtext">
+        <h2>Tipsa oss!</h2>
+        <p>Här kan du tipsa oss material som du vill ha uppe på sidan genom att ladda upp det i formuläret och ge oss lite information om materialet.</p>
+        </div>
+<!--- I ACTION kan vi sen skriva att mailto:vårmail@hotmail.com och sen forsätta mer method-->
+        <form action="tack.html" method="post">
+            
+                <legend><strong>Ge oss informatiom om materialet!</strong></legend>
+                 <table>
+                     <tr>
+                         <td> 
+                             <input type="hidden" name="MAX_FILE_SIZE" value="500" />
+                             <input type="file" name="uploadField"
+                         </td>
+                     </tr>
+                     <tr>
+                         <td>Kurs:</td>
+                         <td> <input type="text" name="kursnamn" placeholder="Skriv vilken kurs..."></td>
+                     </tr>
+                     <tr>
+                        <td>Lärare:</td>
+                        <td> <input type="text" name="fornamn" placeholder="Lärarens namn..."></td>
+                     </tr>
+                     <tr>
+                        <td>Program:</td>
+                        <td><input type="text" name="efternamn" placeholder="Program..."></td>
+                     </tr>
+                     <tr>
+                         <td>Kommentar:</td>
+                         <td> <textarea cols="30" rows="4" name="kommentar" placeholder="Information om materialet..."></textarea></td>
+                     </tr>
+                </table>
+            <input type="submit" value="Skicka"> 
+        
+     </form> 
+    </div>
+        </section>
+        <footer>
+            <p>
+                © uShare
+            </p>
+            
+        </footer>
+    </div>
+</body>
+</html>
